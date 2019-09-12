@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'opne sans', oswald;
+}
+h1 {
+    color: white;
+    background-color: rgb(24, 62, 115);
+    border-style: solid;
+    border-bottom-color: rgb(160, 219, 237);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    font-family: Open Sans;
+    background-size: contain;
+}
+
+.options {
+    background-color: rgb(233, 231, 232);
+    padding: 5px 10px;
+    margin: 50px; 
+}
+img {
+    height: 200px;
+}
+#donate {
+    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/donate.jpg);
+    color: white;
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+#volunteer {
+    color: white;
+    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/volunteer.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+#location {
+    color: white;
+    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/location.png);
+    background-repeat: no-repeat;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.traits {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+}
+.extra-stuff {
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    margin-right: 1rem;
+}
+.traits li {
+    background-color: rgb(160, 219, 237);
+    border-radius: 20px;
+    font-family: Oswald;
+    padding: 5px;
+}
+.dog-traits {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row li {
+    flex: 1;
+}
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+}
