@@ -2,8 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'opne sans', oswald;
+    font-family: 'open sans', oswald;
 }
+
 h1 {
     color: white;
     background-color: rgb(24, 62, 115);
@@ -13,74 +14,138 @@ h1 {
     margin: 0px;
     padding: 20px;
     width: 100%;
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     background-size: contain;
+}
+
+h2 {
+    margin: 5px 30px;
+}
+
+p {
+    margin: 5px 30px;
+}
+
+.row li {
+    width: 31%;
+    align-self: flex-start;
 }
 
 .options {
     background-color: rgb(233, 231, 232);
-    padding: 5px 10px;
-    margin: 50px; 
+    padding: 5px 50px 5px 20px;
+    margin: 20px 30px;
+    font-family: 'Open Sans';
 }
-img {
-    height: 200px;
-}
+
 #donate {
-    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/donate.jpg);
     color: white;
-    background-repeat: no-repeat;
-    height: 200px;
-    text-align: center;
+    background: linear-gradient(rgba(167, 167, 242, 0.775), rgba(167, 167, 242, 0.75)), no-repeat, url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/donate.jpg);
+    background-position: center;
+    background-size: cover;
     line-height: 200px;
+    width: 50%;
+    text-align: center;
 }
+
 #volunteer {
     color: white;
-    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/volunteer.jpg);
-    background-repeat: no-repeat;
-    height: 200px;
-    text-align: center;
+    background: linear-gradient(rgba(167, 167, 242, 0.75), rgba(167, 167, 242, 0.75)), no-repeat, url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/volunteer.jpg);
+    background-position: center;
+    background-size: cover;
     line-height: 200px;
+    text-align: center;
+    width: 50%;
 }
+
 #location {
     color: white;
-    background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/location.png);
-    background-repeat: no-repeat;
-    height: 200px;
-    text-align: center;
+    background: linear-gradient(rgba(167, 167, 242, 0.75), rgba(167, 167, 242, 0.75)), no-repeat, url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/location.png);
+    /* background-image: url(/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/location.png); */
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    background-size: cover;
     line-height: 200px;
+    text-align: center;
+    width: 50%;
 }
+
 .traits {
     display: flex;
     flex-wrap: wrap;
+    /* margin: 1rem 0; */
+    padding: 0;
+    margin-bottom: 1rem;
 }
+
 .row {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    margin: 0 30px;
+    width: 800px;
 }
+
 ul {
     list-style-type: none;
 }
-.extra-stuff {
+
+.footer {
     display: flex;
     justify-content: space-around;
+    font-family: Oswald;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
+
 li {
-    margin-right: 1rem;
+    margin-right: 0.5rem;
 }
+
 .traits li {
     background-color: rgb(160, 219, 237);
     border-radius: 20px;
-    font-family: Oswald;
     padding: 5px;
+    margin: 5px 3px;
+    width: auto;
+    font-size: 8px;
 }
+
 .dog-traits {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px 0;
 }
-.row li {
+
+
+/* .row li {
     flex: 1;
-}
+} */
+
 main {
-    max-width: 50rem;
+    max-width: 55em;
     margin: 0 auto;
+    background-color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+.names {
+    font-family: Oswald;
+}
+
+.footer li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+.dog-traits li {
+    margin-right: 1.2rem;
 }

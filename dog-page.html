@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,73 +9,90 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <main>
-    <header>
-      <h1>Happy Valley Shelter</h1>
-    </header>
-    <div>
         <header>
-            <h2>Adopt a Dog</h2>
+            <h1>Happy Valley Shelter</h1>
         </header>
-        <p>If you are interested in adopting one of our animals, 
-            please fill out our online adoption form.</p>
-    </div>
-    <div class="options">
-        <header>
-          <h3>Show me the dogs that are</h3>
-        </header>
-        <ul class="dog-traits">
-            <li><strong>Gender</strong>
-                <ul>
-                    <li>Male</li>
-                    <li>Female</li>
-                    <li>All</li>
-                </ul>
-            </li>
-            <li><strong>Age</strong>
-            <ul>
-                <li>Puppy</li>
-                <li>Young</li>
-                <li>Adult</li>
-                <li>Senior</li>
-                <li>All</li>
+        <div>
+            <header>
+                <h2>Adopt a Dog</h2>
+            </header>
+            <p>If you are interested in adopting one of our animals, please fill out our <a href="#">online adoption form.</a></p>
+        </div>
+        <div class="options">
+            <header>
+                <h3>Show me the dogs that are</h3>
+            </header>
+            <ul class="dog-traits">
+
+                <li><strong>Gender</strong>
+                    <ul>
+                        <li><label>
+                                <input type="radio" name="gender">
+                        </label>Male</li>
+                        <li><label>
+                            <input type="radio" name="gender">
+                    </label>Female</li>
+                        <li><label>
+                            <input type="radio" name="gender">
+                    </label>All</li>
+                    </ul>
+                </li>
+                <li><strong>Age</strong>
+                    <ul>
+                        <li><label>
+                            <input type="radio" name="age">
+                    </label>Puppy</li>
+                        <li><label>
+                            <input type="radio" name="age">
+                    </label>Young</li>
+                        <li><label>
+                            <input type="radio" name="age">
+                    </label>Adult</li>
+                        <li><label>
+                            <input type="radio" name="age">
+                    </label>Senior</li>
+                        <li><label>
+                                <input type="radio" name="age">
+                        </label>All</li>
+                    </ul>
+                </li>
+                <li><strong>Size</strong>
+                    <ul>
+                        <li><input type="checkbox" name="size">Tiny</li>
+                        <li><input type="checkbox" name="size">Small</li>
+                        <li><input type="checkbox" name="size">Medium</li>
+                        <li><input type="checkbox" name="size">Large</li>
+                    </ul>
+                </li>
+                <li><strong>Personality Traits</strong>
+                    <ul>
+                        <li><input type="checkbox" name="personality">Easygoing</li>
+                        <li><input type="checkbox" name="personality">Energetic</li>
+                        <li><input type="checkbox" name="personality">Good with kids</li>
+                        <li><input type="checkbox" name="personality">Good with other dogs</li>
+                        <li><input type="checkbox" name="personality">Good with cats</li>
+                    </ul>
+                </li>
             </ul>
-            </li>
-            <li><strong>Size</strong>
-            <ul>
-                <li>Tiny</li>
-                <li>Small</li>
-                <li>Medium</li>
-                <li>Large</li>
-            </ul>
-            </li>
-            <li><strong>Personality Traits</strong>
-            <ul>
-                <li>Easygoing</li>
-                <li>Energetic</li>
-                <li>Good with kids</li>
-                <li>Good with other dogs</li>
-                <li>Good with cats</li>
-            </ul>
-            </li>
-        </ul>
-    </div>
-    <div>
-        <ul>
-            <div class="row">
+        </div>
+        <div>
+            <ul class="row">
+
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/beans.jpg" alt="Image of Beans">
-                    <div>Beans</div>
-                        <ul class="traits">
-                            <li>Adult</li>
-                            <li>Male</li>
-                            <li>Medium</li>
-                            <li>Easygoing</li>
-                            <li>Good with cats</li>
-                        </ul>
+                    <div class="names">Beans</div>
+                    <ul class="traits">
+                        <li>Adult</li>
+                        <li>Male</li>
+                        <li>Medium</li>
+                        <li>Easygoing</li>
+                        <li>Good with cats</li>
+                    </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/boston-terrier.jpg" alt="Image of Zelda">
-                    <div>Zelda</div>
+                    <div class="names">Zelda</div>
                     <ul class="traits">
                         <li>Senior</li>
                         <li>Female</li>
@@ -85,7 +103,7 @@
                     </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/boxer.jpg" alt="Image of Baby">
-                    <div>Baby</div>
+                    <div class="names">Baby</div>
                     <ul class="traits">
                         <li>Young</li>
                         <li>Female</li>
@@ -95,10 +113,10 @@
                         <li>Good with other dogs</li>
                     </ul>
                 </li>
-            </div>
-            <div class="row">
+
+
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/golden-lab.jpg" alt="Image of Tom-Tom">
-                    <div>Tom-Tom</div>
+                    <div class="names">Tom-Tom</div>
                     <ul class="traits">
                         <li>Young</li>
                         <li>Male</li>
@@ -110,7 +128,7 @@
                     </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/little-dog.jpg" alt="Image of Marco">
-                    <div>Marco</div>
+                    <div class="names">Marco</div>
                     <ul class="traits">
                         <li>Adult</li>
                         <li>Male</li>
@@ -119,7 +137,7 @@
                     </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/old-shaggy.jpg" alt="Image of Shackleton">
-                    <div>Shackleton</div>
+                    <div class="names">Shackleton</div>
                     <ul class="traits">
                         <li>Adult</li>
                         <li>Male</li>
@@ -131,10 +149,10 @@
                         <li>Good with cats</li>
                     </ul>
                 </li>
-            </div>
-            <div class="row">
+
+
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/shih-tzu.jpg" alt="Image of Midge">
-                    <div>Midge</div>
+                    <div class="names">Midge</div>
                     <ul class="traits">
                         <li>Adult</li>
                         <li>Female</li>
@@ -144,7 +162,7 @@
                     </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/young-bulldog.jpg" alt="Image of Ladybird">
-                    <div>Ladybird</div>
+                    <div class="names">Ladybird</div>
                     <ul class="traits">
                         <li>Young</li>
                         <li>Female</li>
@@ -157,7 +175,7 @@
                     </ul>
                 </li>
                 <li><img src="/Users/mattgouchoe-hanas/momentum_assignments/w1d3-dog-adoption-site-mattgh21/starter_files/images/young-peppy.jpg" alt="Image of Mina">
-                    <div>Mina</div>
+                    <div class="names">Mina</div>
                     <ul class="traits">
                         <li>Puppy</li>
                         <li>Female</li>
@@ -168,16 +186,17 @@
                         <li>Good with cats</li>
                     </ul>
                 </li>
-            </div>
-        </ul>
-    </div>
-    <div>
-        <ul class="extra-stuff">
+
+            </ul>
+        </div>
+
+        <ul class="footer">
             <li id="donate">Donate</li>
             <li id="volunteer">Volunteer</li>
             <li id="location">Our location</li>
         </ul>
-    </div>
+
     </main>
 </body>
+
 </html>
